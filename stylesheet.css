@@ -1,0 +1,99 @@
+/* Good Measure Modern Google Search Design Mockup - Jessica Kienzle*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+    */
+
+
+.header-container {
+  flex: initial;
+  width: auto;
+  align-self: auto;
+}
+
+.menu-top.png {
+}
+
+.menu-container {
+  color: gray;
+  background-color: #121315;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: hidden;
+  width: 200px;
+}
+
+[class='custom'] {
+  color: white;
+}
+
+[class='nearby'] {
+  color: white;
+}
+
+[class='last-month'] {
+  color: white;
+}
+
+.main-container {
+  flex-flow: column wrap;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+  color: verydarkgray;
+}
+
+h3, h4 {
+  color: blue;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.images {
+  display: flex;
+  align-self: auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: right;
+}
+
+/* .images{
+  direction: row;
+} */
+
+[class='header-container'] img {
+  width: 20%;
+  height: auto;
+  border: hidden;
+  flex-flow: row fixed;
+
+}
+
+[class='map-container'] img {
+  width: 40%;
+  height: auto;
+  justify-content: center;
+  border: hidden;
+}
