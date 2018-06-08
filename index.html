@@ -14,7 +14,8 @@
       <div class="search">
         <form class="form-input" action="#" method="post">
           <img class="google" src="images/menu-logo.png" alt="google logo">
-          <input class="bar" type="text" name="username" size="80" height="100" value=""placeholder="Panthera leo">
+          <!-- try to avoid the inline styles, move these to a stylesheet / input has no height attr -->
+          <input class="bar" type="text" name="username" size="80" value="" placeholder="Panthera leo">
           <img class="right-image" src="images/header-right.png" alt="google user">
         </form>
       </div>
@@ -23,47 +24,25 @@
         <div class="column1">
           <div class="nav">
             <ul>
-              <br>
-              <li><h6>TYPES</h6></a>
+              <!-- only valid child element of a ul is an li-->
+              <li><h6>TYPES</h6></li>
               <li><a href="#">Custom</a></li>
               <li><a href="#">Web</a></li>
               <li><a href="#">Images</a></li>
               <li><a href="#">Maps</a></li>
               <li><a href="#">Videos</a></li>
               <li><a href="#">More</a></li>
-              <br>
-              <li><h6>FILTER</h6></a>
+              <li><h6>FILTER</h6></li>
               <li><a href="#">Nearby</a></li>
               <li><a href="#">Last month</a></li>
               <li><a href="#">All results</a></li>
               <li><a href="#">All languages</a></li>
             </ul>
           </div>
-
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          </br>
-          <br>
-          <br>
-
+          <!-- spacing should be done using CSS -->
           <div class="footer">
                 <h6>465000 RESULTS<span> 0.3 SEC</span></h6>
-          </br>
-          </br>
-              </div>
+          </div>
           </div>
 
         <div class="column2">

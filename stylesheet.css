@@ -1,7 +1,7 @@
 /* Good Measure Modern Google Search Design Mockup - Jessica Kienzle*/
 
 * {
-  margin: auto;
+  /*that margin would apply to all elements on the DOM making the other elements positioned based on this*/
   box-sizing: border-box;
 }
 
@@ -42,6 +42,8 @@ form {
 /* Column1 */
 
 .column1 {
+  /*because I want the .footer to be positioned at the bottom of this div absolutely I make the parent relative */ 
+  position: relative;
   background-color: #292b2d;
   /* box-sizing: border-box; */
   width: 16.66%;
@@ -81,6 +83,12 @@ h6 {
 
 span {
   color: #9fa5a8;
+}
+
+.footer {
+  /*sticks footer to bottom of .column1 rather than using the <br> */ 
+  position: absolute;
+  bottom: 0;
 }
 .footer>h6 {
   color: white;
